@@ -20,6 +20,8 @@
         </activity>
         <activity android:name=".ui.HdImgActivity"/>
         <activity android:name=".ui.TounImageViewActivity"/>
+        <activity android:name=".ui.ZoomImageActivity"/>
+        <activity android:name=".ui.ViewPagerImageViewZQUI"/>
     </application>
 
 </manifest>

@@ -16,10 +16,24 @@
         />
 
     <Button
-        android:text="Button"
+        android:text="TounImageView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/TounImageView"
+        android:id="@+id/button2"
+        />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ZoomImageView"
+        />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Img放大缩小左右切换移动"
         />
 
 </LinearLayout>

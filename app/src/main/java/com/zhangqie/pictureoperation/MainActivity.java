@@ -7,6 +7,8 @@ import android.view.View;
 
 import com.zhangqie.pictureoperation.ui.HdImgActivity;
 import com.zhangqie.pictureoperation.ui.TounImageViewActivity;
+import com.zhangqie.pictureoperation.ui.ViewPagerImageViewZQUI;
+import com.zhangqie.pictureoperation.ui.ZoomImageActivity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
@@ -20,6 +22,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private void initView(){
         findViewById(R.id.button1).setOnClickListener(this);
         findViewById(R.id.button2).setOnClickListener(this);
+        findViewById(R.id.button3).setOnClickListener(this);
+        findViewById(R.id.button4).setOnClickListener(this);
+
+
     }
 
     @Override
@@ -31,6 +37,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.button2:
                 startActivity(new Intent(MainActivity.this, TounImageViewActivity.class));
+                break;
+            case R.id.button3:
+                startActivity(new Intent(MainActivity.this,ZoomImageActivity.class));
+                break;
+            case R.id.button4:
+                startActivity(new Intent(MainActivity.this,ViewPagerImageViewZQUI.class));
                 break;
         }
     }
