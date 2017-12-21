@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+import com.zhangqie.pictureoperation.photoview.LauncherActivity;
 import com.zhangqie.pictureoperation.ui.HdImgActivity;
 import com.zhangqie.pictureoperation.ui.TounImageViewActivity;
 import com.zhangqie.pictureoperation.ui.ViewPagerImageViewZQUI;
@@ -24,7 +25,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.button2).setOnClickListener(this);
         findViewById(R.id.button3).setOnClickListener(this);
         findViewById(R.id.button4).setOnClickListener(this);
-
+        findViewById(R.id.button5).setOnClickListener(this);
 
     }
 
@@ -43,6 +44,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.button4:
                 startActivity(new Intent(MainActivity.this,ViewPagerImageViewZQUI.class));
+                break;
+            case R.id.button5:
+                startActivity(new Intent(MainActivity.this,LauncherActivity.class));
                 break;
         }
     }

@@ -44,10 +44,12 @@ public class ViewPagerImageViewZQUI extends AppCompatActivity {
 
             @Override
             public Object instantiateItem(ViewGroup container, int position) {
+                //可以使用其他的ImageView 控件
                 TounChImageView tounChImageView=new TounChImageView(ViewPagerImageViewZQUI.this);
                 try {
                     Picasso.with(ViewPagerImageViewZQUI.this).load(mImgs[position])
-                            .placeholder(R.mipmap.ic_launcher)//默认显示图片
+                            .placeholder(R.mipmap.img1)//默认显示的图片
+                           // .resize(500,300)//控制图片高度，不添加则自适应
                             .error(R.mipmap.ic_launcher)//加载时出现错误显示的图片
                             .into(tounChImageView);
                 } catch (Exception e) {
