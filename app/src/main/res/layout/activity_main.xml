@@ -36,4 +36,11 @@
         android:text="Img放大缩小左右切换移动"
         />
 
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PhotoView"
+        />
+
 </LinearLayout>

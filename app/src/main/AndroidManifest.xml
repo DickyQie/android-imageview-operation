@@ -22,6 +22,21 @@
         <activity android:name=".ui.TounImageViewActivity"/>
         <activity android:name=".ui.ZoomImageActivity"/>
         <activity android:name=".ui.ViewPagerImageViewZQUI"/>
+
+        <activity android:name=".photoview.LauncherActivity"/>
+        <activity android:name=".photoview.SimpleSampleActivity" />
+
+        <activity android:name=".photoview.ViewPagerActivity" />
+
+        <activity android:name=".photoview.RotationSampleActivity" />
+
+        <activity android:name=".photoview.PicassoSampleActivity" />
+
+        <activity android:name=".photoview.ActivityTransitionActivity" />
+
+        <activity android:name=".photoview.ActivityTransitionToActivity" />
+
+        <activity android:name=".photoview.ImmersiveActivity" />
     </application>
 
 </manifest>
