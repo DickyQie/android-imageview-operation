@@ -3,7 +3,7 @@
   <p>项目中常常有图片浏览功能。像微信朋友圈图片浏览，QQ空间照片浏览 的功能。</p> 
 <p>实现图片双击放大，缩小，左右滑动等效果。</p> 
 <p>来看看我的效果图，希望能满足你的要求</p> 
-<p>&nbsp;<img alt="" height="591" src="http://images2017.cnblogs.com/blog/1041439/201712/1041439-20171223113047850-1495895379.gif" width="369"></p> 
+<p>&nbsp;<img alt="" height="581" src="http://images2017.cnblogs.com/blog/1041439/201712/1041439-20171223113047850-1495895379.gif" width="360"></p> 
 <p>&nbsp;</p> 
 <p><img alt="" height="640" src="http://images2017.cnblogs.com/blog/1041439/201712/1041439-20171223113249912-257648637.jpg" width="360">&nbsp; <img alt="" height="640" src="http://images2017.cnblogs.com/blog/1041439/201712/1041439-20171223113325662-500791773.jpg" width="360"></p> 
 <p>前三个button按钮是参考网上的多种实现方式，三种自定义图片控件，</p> 
